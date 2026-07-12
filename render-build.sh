@@ -11,7 +11,7 @@ echo "📦 تثبيت متطلبات البناء..."
 apt-get update
 apt-get install -y build-essential python3-dev
 
-# تثبيت numpy أولاً (لتجنب تعارض الإصدارات)
+# تثبيت numpy أولاً
 echo "📦 تثبيت numpy 1.24.3..."
 pip install numpy==1.24.3
 
